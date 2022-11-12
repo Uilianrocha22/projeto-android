@@ -1,0 +1,241 @@
+
+ < style>
+
+ @font-face {
+     font-family: 'IDROID';
+     src: url('fontes/IDroid.otf')format('opentype');
+}
+
+     @font-face {
+          font-family: 'CAVER';
+          src: url('fontes/Caver\ Pitalsal.otf')format('opentype');
+     }
+     @font-face {
+          font-family: 'mao' ;
+          src: url('fontes/AlphaDantheItalic_PERSONAL_USE_ONLY.otf')format('opentype');
+     }
+
+     *{
+        margin: 0px;
+      
+          
+     }
+
+
+
+body{ 
+     background-color: #0CABA8;
+     color: white ;
+     padding-bottom: 00px;
+     min-width:290px ;
+     
+
+
+  
+     
+}
+
+h1{ font-family: 'CAVER';
+font-weight: normal;
+     font-size: 2.9em;
+     font-weight: bolder;
+     text-align: center;
+     color: white;
+     margin: 20px;
+}
+div{
+    
+     text-align: center;
+     font-size: 1.5em;
+     margin: 20px;
+}
+h2{ font-family:'IDROID';
+     
+     color: #086562;
+
+     font-size: 2.5em;
+     font-weight: bold;
+     text-align: justify;
+     margin: 20px;
+}
+h2::after{
+     content: '\1F916\0020\0020\0020';
+}
+
+
+
+
+p{font-size: 1.1em;
+     text-align: justify;
+     text-indent: 30px;
+     margin: 15px 0px;
+     padding: 5px;
+     line-height: 2em;
+    
+
+}
+b{
+     background-color: #0caba86d;
+     padding: 2px 6px ;
+     border-radius: 2px;
+}
+b::after{
+     content: '\1F517';
+}
+b:hover{
+     text-decoration: underline;
+}
+nav > a{
+     text-decoration: none;
+     color: white;
+     font-size: 15px; 
+     font-weight: bold;
+     text-align: left;
+     margin-right: 0px;
+     padding: 10px;
+     border-radius: 3px;
+     margin: 0px;
+}
+
+nav > a:hover{
+     background-color:#0FC2C0;
+}
+header{ margin-top: 00px;
+     padding-top: 5px;
+     padding-right: ;
+     background-image: linear-gradient(to top , #008F8C , #0CABA8 , #0FC2C0);
+     
+     padding-left: 20px;
+     margin: px;
+     padding-bottom: 10px;
+     min-width: 290px;
+     max-width: 100%;
+     
+}
+main{
+     min-width: 400px;
+     display: block;
+     max-width:95%;
+     
+}
+main > .a{
+     background-color:white;
+     text-align: center;
+     padding: 10px;
+     margin: auto;
+     color: black;
+     width: 1000px;
+     min-width: 290px;
+     max-width: 95%;
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.125);
+}
+main > .b{       background-image:linear-gradient(to bottom ,#008F8C , #0FC2C0 ,#0CABA8 ) ;
+     position: relative;
+text-align: center;
+min-width: 290px;
+max-width: 95%;
+ margin: auto;
+ width: 999px;
+ padding: 10px;
+ 
+
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.21);
+ 
+}
+.b > iframe { 
+     
+    
+   
+     
+     min-width: 290px;
+max-width: 100%;
+}
+h3{ font-family:'IDROID';
+color: #086562;
+text-align: justify;
+text-indent: 10px;
+font-size: 2em;
+font-weight: bold;
+background-image: linear-gradient(to left ,#08656201,#008f8d26 ,#0fc2bf20);
+     
+}
+h4{ font-family: font-family: 'Noto Sans Limbu', sans-serif;;
+     
+     font-size: 2em;
+     
+     background-color: #086562
+     ;
+     color: rgb(244, 241, 241);
+     padding: 20px;
+     font-weight: bolder;
+}
+aside > .c{
+background-color:white ;
+color: black;
+margin: auto;
+text-align: initial;
+width: 1000px;
+padding: 10px;
+min-width: 290px;
+max-width: 95%;
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.141);
+}
+
+h4{ background-color:#008F8C ;
+     color: ;
+text-align: left;
+padding: 15px;
+border-radius: 10px 10px 0px 0px;
+margin-top: 0px;
+}
+
+aside ul{
+     list-style: '\2714\00a0\00a0';
+     text-align: left;
+}
+nav:hover{ color: aquamarine;
+
+}
+footer{font-family: 'mao';
+font-size: 3em;
+     background-color: #086562;
+     padding: 5px;
+     text-align: center;
+     
+     margin-top: 5px;
+     margin-bottom: 0%;
+}
+footer:hover{
+     text-decoration:;
+     color:#0FC2C0;
+}
+article{
+
+     background-color: #0FC2C0;
+     margin-top:-2px;
+     border-radius:10px;
+     padding: 0.5px;
+     min-width: 290px;
+     max-width: 100%;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.042);
+
+}
+p > b {
+     color: #06615e;
+}
+.d { list-style: -moz-element(right);
+    
+}
+img > img{
+     max-width: 100%;
+}
+li{
+     list-style-type: 2714;
+     font-size: 0.8em;
+}
+
+
+
+    
+
+</style>
